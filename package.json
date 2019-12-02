@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage",
-    "test:watch": "npm run test -- --watch",
+    "test": "jest --verbose",
+    "test:watch": "npm run test -- --watch --coverage",
     "lint": "eslint '**/*.js'"
   },
   "author": "",
