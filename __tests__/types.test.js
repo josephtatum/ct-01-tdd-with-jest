@@ -102,6 +102,7 @@ describe('validator module', () => {
       expect(castToArray('four', 2, 3)).toEqual(['four', 2, 3]);
       expect(castToArray(true, 2, 3)).toEqual([true, 2, 3]);
       expect(castToArray(undefined, 2, 3)).toEqual([undefined, 2, 3]);
+      expect(castToArray(isNumber, 2, 3)).toEqual([isNumber, 2, 3]);
     });
 
   });
